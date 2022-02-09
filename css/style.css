@@ -1,114 +1,3 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Rubik", sans-serif;
-  color: #555;
-}
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-ul {
-  list-style: none;
-}
-/***************************************/
-/* GENERAL COMPONENTS */
-/***************************************/
-.heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.05;
-  font-weight: 700;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-.heading-secondary {
-  font-size: 4.4rem;
-  line-height: 1.2;
-  margin-bottom: 9.6rem;
-}
-.heading-tertiary {
-}
-.subheading {
-  display: block;
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #cf711f;
-  text-transform: uppercase;
-  margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
-}
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  font-weight: 600;
-  font-size: 2rem;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-
-  transition: all 0.3s ease;
-}
-.btn--full:link,
-.btn--full:visited {
-  background-color: #e67e22;
-  color: #fff;
-}
-.btn--full:hover,
-.btn--full:active {
-  background-color: #cf711f;
-  color: #fff;
-}
-.btn--outline:link,
-.btn--outline:visited {
-  background-color: #fff;
-  color: #555;
-}
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: #fdf2e9;
-  color: #555;
-  /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #fff;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
-
-.grid {
-  display: grid;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
-}
-
-.grid--2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-}
-.container {
-  max-width: 120rem;
-  padding: 0 3.2rem;
-  margin: 0 auto;
-}
 /***************************************/
 /* HEADER */
 /***************************************/
@@ -213,13 +102,20 @@ ul {
 .step-text-box {
 }
 .step-number {
-}
-.heading-tertiary {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+  margin-bottom: 1.2rem;
 }
 .step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 .step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .step-img {
-  width: 50%;
+  width: 35%;
 }
