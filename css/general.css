@@ -97,6 +97,10 @@ ul {
   gap: 9.6rem 6.4rem;
 }
 
+.grid--center-v {
+  align-items: center;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
