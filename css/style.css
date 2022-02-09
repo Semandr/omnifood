@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 400;
+  color: #555;
+}
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+}
+.hero-img {
+  width: 100%;
+}
+.section-hero {
+}
+.hero-text-box {
+}
+.heading-primary {
+}
+.hero-description {
+}
+.btn {
+}
+.hero-img-box {
+}
