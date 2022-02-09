@@ -14,6 +14,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 ul {
   list-style: none;
@@ -80,13 +81,33 @@ ul {
 .logo {
   height: 2.2rem;
 }
-.main-nav {
-}
 .main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
-.main-nav-link {
+.main-nav-link:link,
+.main-nav-link:visited {
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  transition: all 0.3s ease;
 }
-.nav-cta {
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 /***************************************/
 /* HERO SECTION */
