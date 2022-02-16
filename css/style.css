@@ -400,6 +400,7 @@
 }
 .cta {
   display: grid;
+  /* 66% for content and 33% for image */
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
